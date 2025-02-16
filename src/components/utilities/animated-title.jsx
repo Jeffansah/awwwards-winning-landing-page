@@ -21,7 +21,7 @@ const AnimatedTitle = ({ title, containerClass }) => {
         transform: "translate3d(0,0,0)",
         rotateY: 0,
         rotateX: 0,
-        ease: "power2.inOut",
+        ease: "expo.inOut",
         stagger: 0.02,
       });
     }, containerRef);
