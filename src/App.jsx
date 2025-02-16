@@ -5,6 +5,7 @@ import Navbar from "./components/navbar";
 import Features from "./components/features";
 import Story from "./components/story";
 import Contact from "./components/contact";
+import Footer from "./components/Footer";
 
 const App = () => {
   return (
@@ -15,6 +16,7 @@ const App = () => {
       <Features />
       <Story />
       <Contact />
+      <Footer />
     </main>
   );
 };
