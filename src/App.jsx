@@ -4,6 +4,7 @@ import About from "./components/about";
 import Navbar from "./components/navbar";
 import Features from "./components/features";
 import Story from "./components/story";
+import Contact from "./components/contact";
 
 const App = () => {
   return (
@@ -13,6 +14,7 @@ const App = () => {
       <Navbar />
       <Features />
       <Story />
+      <Contact />
     </main>
   );
 };
